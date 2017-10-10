@@ -1,0 +1,55 @@
+<div class = "triple-header-section grid-container">
+<div class="grid-x grid-margin-x">
+        <div class="large-4 medium-4 small-4 cell">
+          <div class="primary">
+            <img src = "assets/img/vintage-standing-desk-2.jpg">
+          </div>
+        </div>
+        <div class="large-4 medium-4 small-4 cell">
+          <div class="primary">
+            <img src = "assets/img/bamboo-adjustable-desk.jpg">
+          </div>
+        </div>
+        <div class="large-4 medium-4 small-4 cell">
+          <div class="primary">
+            <img src = "assets/img/standing-power-desk.jpg">
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-x grid-margin-x triple-header">
+        <div class="large-4 medium-4 small-4 cell">
+          <div class="primary">
+            <h5>Explore Desk Models</h5>
+          </div>
+        </div>
+        <div class="large-4 medium-4 small-4 cell">
+          <div class="primary">
+           <h5>Watch the Film</h5>
+          </div>
+        </div>
+        <div class="large-4 medium-4 small-4 cell">
+          <div class="primary">
+           <h5>Bring Yours Home Today</h5>
+          </div>
+        </div>
+      </div>
+
+            <div class="grid-x grid-margin-x triple-header">
+        <div class="large-4 medium-4 small-4 cell">
+          <div class="primary">
+            Life is best when filled with great design. Beyond useful. These objects give a meaning to space. And a spark to one's emotions. We rarely abide by the rules, but there is one principle to which we always remain true: form follows function. Design and functionality blend to create one harmonious whole.
+          </div>
+        </div>
+        <div class="large-4 medium-4 small-4 cell">
+          <div class="primary">
+           The all-new 2018 models bring second generation Xdesk patent-pending technologies to life. With integrated storage solutions, autonomous movement, new safety features and superior stabilty, Xdesk users enjoy more user-centric solutions than ever before.
+          </div>
+        </div>
+        <div class="large-4 medium-4 small-4 cell">
+          <div class="primary">
+           Discover how a truly ergonomic will change your life for the better. Xdesk is not only commmitted to the evolution of the desk, but to that of the person using it. For the first time ever, it's now possible to enjoy your modern lifestyle while rewarding your mind, body and soul.
+          </div>
+        </div>
+      </div>
+</div>

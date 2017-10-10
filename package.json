@@ -1,7 +1,7 @@
 {
-  "name": "foundation-zurb-template",
+  "name": "xDesk",
   "version": "1.0.0",
-  "description": "Official ZURB Template for Foundation for Sites.",
+  "description": "xDesk",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp",

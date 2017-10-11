@@ -1,20 +1,20 @@
 $topbar-responsive-bg: white;
 $topbar-responsive-animation-type: fade-in; // or use slide-down or none
 $topbar-input-width: 150px;
+$menu-item: #212121;
 
 .topbar-responsive {
   background: $topbar-responsive-bg;
-
-  color: #212121;
+  color: $menu-item;
 
   .topbar-responsive-logo {
-    vertical-align: middle;
-
-  }
-
- img{
-  max-width: 15%;
-  width: 15%;
+    display: inline-block;
+    // vertical-align: middle;
+    img {
+      margin-left: 20px;
+      min-width: 128px;
+      width: 128px;
+    }
   }
 
 .right-please {
@@ -33,17 +33,21 @@ $topbar-input-width: 150px;
   .menu {
     background: $topbar-responsive-bg;
     font-size: small;
+    text-align: center;
 
-   li:last-of-type {
+    li:last-of-type {
       margin-right: 0;
     }
 
     a {
       color: #212121;
-      transition: color 0.15s ease-in;
+      font-weight: bold;
+      text-transform: uppercase;
+      transition: all 0.15s ease-in-out;
 
       &:hover {
-        color: lighten($topbar-responsive-bg, 60%);
+        color: lighten($menu-item, 30%);
+        transform: translate(0, -2px);
       }
 
       @media screen and (max-width: 39.9375em) {
@@ -111,10 +115,19 @@ $topbar-input-width: 150px;
 }
 
 @include breakpoint(small only) {
+  .top-bar {
+    display: inline !important;
+  }
   .topbar-responsive-links {
     animation-fill-mode: both;
     animation-duration: 0.5s;
     width: 100%;
+
+    .menu {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 33%;
+    }
 
     @if $topbar-responsive-animation-type == slide-down {
       animation: slideDown 1s ease-in;

@@ -16,14 +16,24 @@ $large-article-header-height: rem-calc(500);
 }
 
 .large-article-header {
-  background: $large-article-header-bg no-repeat center;
+  background: $large-article-header-bg;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  height: $large-article-header-height;
+  height: 85vh;
   position: relative;
 
   @include breakpoint(small only) {
     height: ($large-article-header-height / 1.5);
   }
+}
+
+.scroll-arrow {
+  height: 4vh;
+  margin: 0 auto;
+  margin-top: 23%;
+  width: 4vw;
 }
 
 .second-large-article-header {
@@ -56,8 +66,6 @@ $large-article-header-height: rem-calc(500);
     width: 50%;
     margin: 0 auto;
     margin-left: 10%;
-
-
 
     @include breakpoint(small only) {
       width: 100%;
